@@ -18,12 +18,13 @@ import Image from 'next/image'
 import Nutrition from '../../components/nutrition'
 import { middleware } from '../../utils/middleware'
 // Codelab: Add the Shared Element Transitions API.
-import { usePageTransition } from '../../utils/use-page-transition'
+// import { usePageTransition } from '../../utils/use-page-transition'
 
 const Item = ({ data }) => {
   const { name, image, ammountPer, nutrition } = data
   // Codelab: Add the Shared Element Transitions API.
-  const ref = usePageTransition()
+  const ref = null
+  // const ref = usePageTransition()
 
   return (
     <div className={'flex flex-col items-center justify-center py-4 px-4 sm:flex-row'} ref={ref}>

@@ -43,7 +43,7 @@ const Item = ({ data }) => {
 export const getServerSideProps = middleware(async (ctx) => {
   const { req, res, query } = ctx
   // Codelab: Modify the cache-control header.
-  res.setHeader('Cache-Control', 'public, s-maxage=10, stale-while-revalidate=59')
+  // res.setHeader('Cache-Control', 'public, s-maxage=10, stale-while-revalidate=59')
 
   const { name } = query
   const apiResponse = await fetch(`${req.hostWithProtocol}/api/vegetables/${name}`)

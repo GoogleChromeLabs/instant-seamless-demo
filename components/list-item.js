@@ -17,16 +17,16 @@
 import Link from 'next/link'
 import Icon from './icon'
 // Codelab: Add a PrerenderButton component.
-import PrerenderButton from './prerender-button'
+// import PrerenderButton from './prerender-button'
 // Codelab: Add the Shared Element Transitions API.
-import { usePageTransitionPrep } from '../utils/use-page-transition'
+// import { usePageTransitionPrep } from '../utils/use-page-transition'
 
 function ListItemForSPA({ item, href }) {
   // Codelab: Add Shared Element Transitions.
-  const transitionNextState = usePageTransitionPrep()
+  // const transitionNextState = usePageTransitionPrep()
   const handleClick = async (e) => {
-    const elm = e.target.closest('a')
-    await transitionNextState(elm)
+    // const elm = e.target.closest('a')
+    // await transitionNextState(elm)
   }
   return (
     <Link href={href}>
@@ -44,7 +44,7 @@ function ListItemForMPA({ item, href }) {
       <Icon src={item.image} />
       <div className='text-xl'>{item.name}</div>
       {/* Codelab: Add PrerenderButton component. */}
-      <PrerenderButton />
+      {/* <PrerenderButton /> */}
     </a>
   )
 }
