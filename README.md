@@ -1,6 +1,6 @@
 # Instant & Seamless Demo Web App
 
-This project includes scripts and configuration files to build a sample web app which showcases some of new browser APIs to make loading experience nearly instant and navigation more seamless. The app is also built for the referrence of how those new APIs are integrated into [Next.js](https://nextjs.org/).
+This project includes scripts and configuration files to build a sample web app which showcases some of new browser APIs that make loading experience nearly instant and navigation more seamless. The app is also built for the referrence of how those new APIs are integrated into [Next.js](https://nextjs.org/).
 
 We cover following APIs:
 - [Prerendering](https://github.com/WICG/nav-speculation)
@@ -10,7 +10,9 @@ We cover following APIs:
 
 ## Codelab
 
-We have a [codelab](https://codelabs.developers.google.com/create-an-instant-and-seamless-web-app) introducing each API and demonstrating how to enable them by editing the sample app step by step.
+We have [the codelab](https://codelabs.developers.google.com/create-an-instant-and-seamless-web-app) introducing each API and demonstrating how to enable them by editing the sample app step by step.
+
+If you're going to walk through the codelab, please checkout the [codelab](https://github.com/GoogleChromeLabs/instant-seamless-demo/tree/codelab) branch in the repo, which is the initial state of the sample app, and the codelab would guide you to the right path to implement each API.
 
 ## How to run the app
 
