@@ -17,7 +17,7 @@
 const vegetables = [
   {
     name: 'carrots',
-    image: '/louis-hansel-Iu3oWcTi0a4-unsplash.jpg',
+    image: '/images/louis-hansel-Iu3oWcTi0a4-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 41,
@@ -31,7 +31,7 @@ const vegetables = [
   },
   {
     name: 'potatoes',
-    image: '/lars-blankers-B0s3Xndk6tw-unsplash.jpg',
+    image: '/images/lars-blankers-B0s3Xndk6tw-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 77,
@@ -45,7 +45,7 @@ const vegetables = [
   },
   {
     name: 'tomatoes',
-    image: '/josephine-baran-g4wzhY8qiMw-unsplash.jpg',
+    image: '/images/josephine-baran-g4wzhY8qiMw-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 18,
@@ -59,7 +59,7 @@ const vegetables = [
   },
   {
     name: 'onions',
-    image: '/mayu-ken-CNZ-9s5p2i8-unsplash.jpg',
+    image: '/images/mayu-ken-CNZ-9s5p2i8-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 40,
@@ -73,7 +73,7 @@ const vegetables = [
   },
   {
     name: 'lettuce',
-    image: '/petr-magera-YLeRHRiRgts-unsplash.jpg',
+    image: '/images/petr-magera-YLeRHRiRgts-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 15,
@@ -87,7 +87,7 @@ const vegetables = [
   },
   {
     name: 'broccoli',
-    image: '/louis-hansel-LpHYbY6Qu_o-unsplash.jpg',
+    image: '/images/louis-hansel-LpHYbY6Qu_o-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 39,
@@ -100,7 +100,7 @@ const vegetables = [
   },
   {
     name: 'corn',
-    image: '/wouter-supardi-salari-HE_MjmWh9eQ-unsplash.jpg',
+    image: '/images/wouter-supardi-salari-HE_MjmWh9eQ-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 86,
