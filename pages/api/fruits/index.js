@@ -17,7 +17,7 @@
 const fruits = [
   {
     name: 'bananas',
-    image: '/anastasia-eremina-VI2rIoZUrks-unsplash.jpg',
+    image: '/images/anastasia-eremina-VI2rIoZUrks-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 89,
@@ -31,7 +31,7 @@ const fruits = [
   },
   {
     name: 'apples',
-    image: '/tuqa-nabi-71JHj_t-kS0-unsplash.jpg',
+    image: '/images/tuqa-nabi-71JHj_t-kS0-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 52,
@@ -45,7 +45,7 @@ const fruits = [
   },
   {
     name: 'strawberries',
-    image: '/olga-kudriavtseva-CL26_lT3Ygg-unsplash.jpg',
+    image: '/images/olga-kudriavtseva-CL26_lT3Ygg-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 33,
@@ -59,7 +59,7 @@ const fruits = [
   },
   {
     name: 'grapes',
-    image: '/gunter-hoffmann-LYaW8eq3mjs-unsplash.jpg',
+    image: '/images/gunter-hoffmann-LYaW8eq3mjs-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 67,
@@ -73,7 +73,7 @@ const fruits = [
   },
   {
     name: 'oranges',
-    image: '/mae-mu-9002s2VnOAY-unsplash.jpg',
+    image: '/images/mae-mu-9002s2VnOAY-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 47,
@@ -87,7 +87,7 @@ const fruits = [
   },
   {
     name: 'watermelon',
-    image: '/floh-maier-aFUHu9WNO3Q-unsplash.jpg',
+    image: '/images/floh-maier-aFUHu9WNO3Q-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 30,
@@ -101,7 +101,7 @@ const fruits = [
   },
   {
     name: 'blueberries',
-    image: '/davies-designs-studio-34lgO8_OO-o-unsplash.jpg',
+    image: '/images/davies-designs-studio-34lgO8_OO-o-unsplash.jpg',
     ammountPer: '100 grams',
     nutrition: {
       Calories: 57,
