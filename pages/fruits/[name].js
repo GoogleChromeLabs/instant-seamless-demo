@@ -21,7 +21,7 @@ import { middleware } from '../../utils/middleware'
 import { usePageTransition } from '../../utils/use-page-transition'
 
 const Item = ({ data }) => {
-  const { name, image, ammountPer, nutrition } = data
+  const { name, image, amountPer, nutrition } = data
   // Codelab: Add the Shared Element Transitions API.
   const ref = usePageTransition()
 
@@ -39,7 +39,7 @@ const Item = ({ data }) => {
       </div>
 
       <div className='sm:w-2/4 w-full'>
-        <Nutrition ammountPer={ammountPer} nutrition={nutrition} />
+        <Nutrition amountPer={amountPer} nutrition={nutrition} />
       </div>
     </div>
   )

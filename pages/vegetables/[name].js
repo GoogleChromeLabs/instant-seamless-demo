@@ -19,7 +19,7 @@ import Nutrition from '../../components/nutrition'
 import { middleware } from '../../utils/middleware'
 
 const Item = ({ data }) => {
-  const { name, image, ammountPer, nutrition } = data
+  const { name, image, amountPer, nutrition } = data
   return (
     <div className={'flex flex-col items-center justify-center py-4 px-4 sm:flex-row'}>
       <div className='flex flex-col items-center sm:w-2/4'>
@@ -34,7 +34,7 @@ const Item = ({ data }) => {
       </div>
 
       <div className='sm:w-2/4 w-full'>
-        <Nutrition ammountPer={ammountPer} nutrition={nutrition} />
+        <Nutrition amountPer={amountPer} nutrition={nutrition} />
       </div>
     </div>
   )
