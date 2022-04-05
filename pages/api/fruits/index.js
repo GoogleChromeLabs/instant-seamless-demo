@@ -18,7 +18,7 @@ const fruits = [
   {
     name: 'bananas',
     image: '/images/anastasia-eremina-VI2rIoZUrks-unsplash.jpg',
-    ammountPer: '100 grams',
+    amountPer: '100 grams',
     nutrition: {
       Calories: 89,
       'Total Fat': '0.3 g',
@@ -32,7 +32,7 @@ const fruits = [
   {
     name: 'apples',
     image: '/images/tuqa-nabi-71JHj_t-kS0-unsplash.jpg',
-    ammountPer: '100 grams',
+    amountPer: '100 grams',
     nutrition: {
       Calories: 52,
       'Total Fat': '0.2 g',
@@ -46,7 +46,7 @@ const fruits = [
   {
     name: 'strawberries',
     image: '/images/olga-kudriavtseva-CL26_lT3Ygg-unsplash.jpg',
-    ammountPer: '100 grams',
+    amountPer: '100 grams',
     nutrition: {
       Calories: 33,
       'Total Fat': '0.3 g',
@@ -60,7 +60,7 @@ const fruits = [
   {
     name: 'grapes',
     image: '/images/gunter-hoffmann-LYaW8eq3mjs-unsplash.jpg',
-    ammountPer: '100 grams',
+    amountPer: '100 grams',
     nutrition: {
       Calories: 67,
       'Total Fat': '0.4 g',
@@ -74,7 +74,7 @@ const fruits = [
   {
     name: 'oranges',
     image: '/images/mae-mu-9002s2VnOAY-unsplash.jpg',
-    ammountPer: '100 grams',
+    amountPer: '100 grams',
     nutrition: {
       Calories: 47,
       'Total Fat': '0.1 g',
@@ -88,7 +88,7 @@ const fruits = [
   {
     name: 'watermelon',
     image: '/images/floh-maier-aFUHu9WNO3Q-unsplash.jpg',
-    ammountPer: '100 grams',
+    amountPer: '100 grams',
     nutrition: {
       Calories: 30,
       'Total Fat': '0.2 g',
@@ -102,7 +102,7 @@ const fruits = [
   {
     name: 'blueberries',
     image: '/images/davies-designs-studio-34lgO8_OO-o-unsplash.jpg',
-    ammountPer: '100 grams',
+    amountPer: '100 grams',
     nutrition: {
       Calories: 57,
       'Total Fat': '0.3 g',
